@@ -25,6 +25,18 @@ needed.
 - Type an exact percentage, or use ↑/↓ in the field
 - Quick presets (50–150%)
 - Reset to 100%
+- Keyboard shortcuts: **Ctrl+Up** zoom in 5%, **Ctrl+Down** zoom out 5%
+
+## Keyboard shortcuts
+
+The defaults are `Ctrl+Up` / `Ctrl+Down` (5% per press). Remap them at
+`chrome://extensions/shortcuts`.
+
+You **cannot** bind these to `Ctrl+=` / `Ctrl+-`: Chrome's shortcut API doesn't
+accept the `=`/`-` keys, and those combos are reserved by Chrome for its native
+zoom and always take priority over extensions. Truly intercepting them would
+require injecting a script into every page (broad host permission), which this
+extension intentionally avoids.
 
 ## Install (unpacked)
 

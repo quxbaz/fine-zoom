@@ -4,6 +4,19 @@
   "version": "1.0.0",
   "description": "Fine-grained per-site zoom control. Persists per domain across reloads and restarts, like Chrome's built-in zoom.",
   "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "zoom-in": {
+      "suggested_key": { "default": "Ctrl+Up" },
+      "description": "Zoom in 5%"
+    },
+    "zoom-out": {
+      "suggested_key": { "default": "Ctrl+Down" },
+      "description": "Zoom out 5%"
+    }
+  },
   "action": {
     "default_title": "Fine Zoom",
     "default_popup": "popup.html",
