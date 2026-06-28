@@ -25,11 +25,11 @@ needed.
 - Type an exact percentage, or use ↑/↓ in the field
 - Quick presets (50–150%)
 - Reset to 100%
-- Keyboard shortcuts: **Ctrl+Alt+Up** zoom in 5%, **Ctrl+Alt+Down** zoom out 5%
+- Keyboard shortcuts: **Alt+Shift+Up** zoom in 5%, **Alt+Shift+Down** zoom out 5%
 
 ## Keyboard shortcuts
 
-The defaults are `Ctrl+Alt+Up` / `Ctrl+Alt+Down` (5% per press). Remap them at
+The defaults are `Alt+Shift+Up` / `Alt+Shift+Down` (5% per press). Remap them at
 `chrome://extensions/shortcuts`.
 
 You **cannot** bind these to `Ctrl+=` / `Ctrl+-`: Chrome's shortcut API doesn't
