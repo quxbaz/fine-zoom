@@ -9,11 +9,11 @@
   },
   "commands": {
     "zoom-in": {
-      "suggested_key": { "default": "Ctrl+Up", "mac": "Command+Up" },
+      "suggested_key": { "default": "Ctrl+Alt+Up", "mac": "Command+Alt+Up" },
       "description": "Zoom in 5%"
     },
     "zoom-out": {
-      "suggested_key": { "default": "Ctrl+Down", "mac": "Command+Down" },
+      "suggested_key": { "default": "Ctrl+Alt+Down", "mac": "Command+Alt+Down" },
       "description": "Zoom out 5%"
     }
   },
