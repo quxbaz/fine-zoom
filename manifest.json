@@ -9,11 +9,11 @@
   },
   "commands": {
     "zoom-in": {
-      "suggested_key": { "default": "Ctrl+Up", "mac": "Command+Up" },
+      "suggested_key": { "default": "Ctrl+PageUp", "mac": "Command+PageUp" },
       "description": "Zoom in 5%"
     },
     "zoom-out": {
-      "suggested_key": { "default": "Ctrl+Down", "mac": "Command+Down" },
+      "suggested_key": { "default": "Ctrl+PageDown", "mac": "Command+PageDown" },
       "description": "Zoom out 5%"
     }
   },
