@@ -87,6 +87,13 @@ levelInput.addEventListener("keydown", (e) => {
   }
 });
 
+// Chrome only allows command shortcuts to be remapped from its own
+// shortcuts page; extensions can't set them programmatically. A plain
+// <a href="chrome://..."> is blocked, so open it via the tabs API.
+document.getElementById("shortcuts").addEventListener("click", () => {
+  chrome.tabs.create({ url: "chrome://extensions/shortcuts" });
+});
+
 (async function init() {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   if (!tab || tab.id === undefined) {

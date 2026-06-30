@@ -30,7 +30,9 @@ needed.
 ## Keyboard shortcuts
 
 The defaults are `Ctrl+Up` / `Ctrl+Down` (5% per press). Remap them at
-`chrome://extensions/shortcuts`.
+`chrome://extensions/shortcuts` — the popup's **Customize keyboard shortcuts**
+link opens that page directly. (Chrome only lets shortcuts be remapped from
+there; extensions can't set them programmatically.)
 
 You **cannot** bind these to `Ctrl+=` / `Ctrl+-`: Chrome's shortcut API doesn't
 accept the `=`/`-` keys, and those combos are reserved by Chrome for its native
